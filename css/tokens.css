@@ -1,0 +1,33 @@
+:root {
+  /* colour */
+  --paper: #F6F0E4;
+  --paper-deep: #EDE4D2;
+  --ink: #2A2A22;
+  --ink-soft: #55574A;
+  --soil: #2F3E2E;
+  --soil-deep: #223022;
+  --clay: #A84E30;
+  --clay-dark: #8C3E24;
+  --ochre: #D9A441;
+  --sage: #C9D3B8;
+
+  /* type */
+  --font-display: "Fraunces", Georgia, serif;
+  --font-body: "DM Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --step--1: clamp(0.85rem, 0.83rem + 0.1vw, 0.92rem);
+  --step-0: clamp(1rem, 0.96rem + 0.2vw, 1.125rem);
+  --step-1: clamp(1.25rem, 1.1rem + 0.7vw, 1.6rem);
+  --step-2: clamp(1.6rem, 1.3rem + 1.4vw, 2.4rem);
+  --step-3: clamp(2.3rem, 1.6rem + 3.2vw, 4.2rem);
+
+  /* space + shape */
+  --space-1: 0.5rem;
+  --space-2: 1rem;
+  --space-3: 1.5rem;
+  --space-4: 2.5rem;
+  --space-5: 4rem;
+  --space-6: 6rem;
+  --radius: 1.25rem;
+  --radius-lg: 2rem;
+  --max: 72rem;
+}
